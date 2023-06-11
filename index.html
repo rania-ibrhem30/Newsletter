@@ -119,17 +119,40 @@
     }
 
     @media (max-width: 768px) {
-      .box-div {
-        display: flex;
-        flex-direction: column;
+      .imgleft img{
+        width: 258px;
+         position: absolute;
+         bottom: 47px;
+         left: -74px;;
       }
-      .logo {
-        padding: 60px 0;
-        width: 60px;
+      .respovive{
+        font-size: 1.5rem;
       }
+
+      
     }
 
-    @media (min-width: 992px) {
+    @media (max-width: 992px) {
+      body {
+      font-family: "Tajawal", sans-serif;
+      margin: 10px;
+      max-width: 1200px;
+      margin: 0 auto;
+      overflow: auto;
+      padding: 0 10px;
+    }
+    .logo-top{
+        width: 250px;
+    }
+      .imgleft img{
+        width: 170px;
+         position: absolute;
+         bottom: 50px;
+         left: -70px;;
+      }
+      .respovive{
+        font-size: 0.90rem;
+      }
     }
 
     @media (min-width: 1200px) {
@@ -142,13 +165,13 @@
   <body>
     <nav>
       <section class="logo">
-        <img src="../logo (1).png" alt="" />
+        <img src="../logo (1).png" alt=""  class="logo-top"/>
       </section>
 
       <section class="header">
         <div>
-          <h1>نشرة القيادات التنفيذية</h1>
-          <h3>ابتكارات من حول العالم</h3>
+          <h1 class="respovive">نشرة القيادات التنفيذية</h1>
+          <h3 class="respovive">ابتكارات من حول العالم</h3>
         </div>
         <div class="imgleft">
           <img src="../logoleft.png" alt="" />
